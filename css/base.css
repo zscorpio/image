@@ -1,0 +1,153 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,textarea,th,td {
+	margin: 0;
+	padding: 0;
+}
+a,embed {
+	outline: 0 none;
+}
+html {
+	font-size: 100%;
+}
+body {
+	color: #2E3030;
+	font-size: 12px;
+	font-family: 微软雅黑,宋体, Verdana, Geneva, sans-serif;
+	background: #F8F8F8;
+	-webkit-font-smoothing: subpixel-antialiased;
+	color: #4D4D4D;
+}
+img {
+	border: 0;
+}
+a img {
+	display: inline-block;
+	vertical-align: top;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	color: #e5780c;
+	outline: 0;
+}
+a:focus {
+	outline: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+h1 {
+	font-size: 30px;
+	line-height: 36px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 36px;
+}
+h3 {
+	line-height: 27px;
+	font-size: 18px;
+}
+h4, h5, h6 {
+	line-height: 18px;
+}
+h4 {
+	font-size: 14px;
+}
+h5 {
+	font-size: 12px;
+}
+h6 {
+	font-size: 11px;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+	font-weight: normal;
+	font: 12px/1.5 tahoma,arial,宋体;
+	margin-left: 40px;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: decimal;
+}
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+.show {display: block;}
+.hide {display: none;}
+.fl {float: left;}
+.fr {float: right;}
+.fl,
+.fr {
+	_display: inline;
+}
+
+/* 文字选中时的效果 */
+::-webkit-selection {
+	background: #487BBF;
+	color: #ffffff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #487BBF;
+	color: #ffffff;
+	text-shadow: none;
+}
+::selection {
+	background: #487BBF;
+	color: #ffffff;
+	text-shadow: none;
+}
+.btn{
+	margin: 0;
+	position: relative;
+	display: block;
+	color: #666;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.59);
+	background: #ececec;
+	padding: 6px 20px 7px 20px;
+	outline: none;
+	border: 1px solid #d8d8d8;
+	border-bottom: 1px solid #ccc;
+	border-radius: 3px;
+	cursor: pointer;
+	overflow: visible;
+	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);
+	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);
+	-o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.57);
+}
+.btn:hover {
+	color: #888;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.69);
+	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75);
+	-moz-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75);
+	-o-box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75);
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 15px 14px rgba(255,255,255,0.75);
+}
+.btn:active {
+	color: #696969;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.53);
+	border: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d8d8d8;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20);
+	-moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20);
+	-o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14px rgba(255,255,255,0.20);
+	box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 1px 6px rgba(0,0,0,0.07), inset 0px -15px 14pxpx rgba(255,255,255,0.20);
+}
